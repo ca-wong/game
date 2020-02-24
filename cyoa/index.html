@@ -9,16 +9,14 @@
         canvas{
             margin: 0;
             font-family: "VT323", monospace;
-            background-color: rgb(43, 43, 43);
+            background-color: rgb(0, 0, 0);
         }
     </style>
     <link href="https://fonts.googleapis.com/css?family=VT323" rel="atylesheet">
 </head>
 
-<body>
-    <canvas height="1344" width="1344" id="myCanvas"></canvas>
-    <script type="text/javasscript" src="game.js"></script>
-    
+<body id="parent" onload="game();">
+   
     <div style="display:none" id="images">
         <img src="assets/background1.png" id="start"/>
         <img src="assets/background2.png" id="forest1"/>
@@ -37,6 +35,10 @@
         <img src="assets/npc3 (3).png" id="MiddleNPC3"/>
         <img src="assets/textbox.png" id="textbox"/>
         <img src="assets/choice.png" id="box"/>
+        <img src="assets/black.png" id="ending"/>
     </div>
+    
+     <canvas height="800" width="800" id="myCanvas"></canvas>
+    <script type="text/javascript" src="game.js"></script>
 </body>
 </html>
