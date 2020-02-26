@@ -837,7 +837,7 @@ function game() {
     function stageSix() {
         ctx.drawImage(document.getElementById("ending"), 0, 0);
 
-        ctx.font = "35px monospace";
+        ctx.font = "30px monospace";
         ctx.fillStyle = "white";
         ctx.textAlign = "center";
         ctx.fillText("Ending #2", 400, 100);
