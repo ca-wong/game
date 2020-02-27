@@ -38,7 +38,7 @@ function game() {
             const rect = canvas.getBoundingClientRect(),
                 x = event.clientX - rect.left,
                 y = event.clientY - rect.top;
-            let data = ctx.getImageData(x, y, 1, 1).data;
+            
             if (x <= 400) {
                 stageThreeA(); // Home
             }
@@ -81,7 +81,7 @@ function game() {
             const rect = canvas.getBoundingClientRect(),
                 x = event.clientX - rect.left,
                 y = event.clientY - rect.top;
-            let data = ctx.getImageData(x, y, 1, 1).data;
+            
 
             if (x <= 400) {
                 stageFourA(); // Town
@@ -111,7 +111,6 @@ function game() {
             const rect = canvas.getBoundingClientRect(),
                 x = event.clientX - rect.left,
                 y = event.clientY - rect.top;
-            let data = ctx.getImageData(x, y, 1, 1).data;
 
             if (x <= (800 / 3)) {
                 stageFourA1(); //npc2
@@ -153,7 +152,7 @@ function game() {
             const rect = canvas.getBoundingClientRect(),
                 x = event.clientX - rect.left,
                 y = event.clientY - rect.top;
-            let data = ctx.getImageData(x, y, 1, 1).data;
+            
             
             if (x <= 400) {
                 dialogue1a();
@@ -188,7 +187,7 @@ function game() {
             const rect = canvas.getBoundingClientRect(),
                 x = event.clientX - rect.left,
                 y = event.clientY - rect.top;
-            let data = ctx.getImageData(x, y, 1, 1).data;
+            
             
             dialogueChoice1_1();
         };
@@ -216,7 +215,7 @@ function game() {
             const rect = canvas.getBoundingClientRect(),
                 x = event.clientX - rect.left,
                 y = event.clientY - rect.top;
-            let data = ctx.getImageData(x, y, 1, 1).data;
+            
             
             if (x <= 400) {
                 dialogue1c();
@@ -253,7 +252,7 @@ function game() {
             const rect = canvas.getBoundingClientRect(),
                 x = event.clientX - rect.left,
                 y = event.clientY - rect.top;
-            let data = ctx.getImageData(x, y, 1, 1).data;
+            
             
             dialogueChoice1_2();
         };
@@ -281,7 +280,7 @@ function game() {
             const rect = canvas.getBoundingClientRect(),
                 x = event.clientX - rect.left,
                 y = event.clientY - rect.top;
-            let data = ctx.getImageData(x, y, 1, 1).data;
+            
             
             if (x <= 400) {
                 dialogue1e();
@@ -318,7 +317,7 @@ function game() {
             const rect = canvas.getBoundingClientRect(),
                 x = event.clientX - rect.left,
                 y = event.clientY - rect.top;
-            let data = ctx.getImageData(x, y, 1, 1).data;
+            
             
             stageFourA();
         };
@@ -358,7 +357,7 @@ function game() {
             const rect = canvas.getBoundingClientRect(),
                 x = event.clientX - rect.left,
                 y = event.clientY - rect.top;
-            let data = ctx.getImageData(x, y, 1, 1).data;
+            
             
             if (x<=400) {
                 dialogue2a();
@@ -393,7 +392,7 @@ function game() {
             const rect = canvas.getBoundingClientRect(),
                 x = event.clientX - rect.left,
                 y = event.clientY - rect.top;
-            let data = ctx.getImageData(x, y, 1, 1).data;
+            
             
             dialogueChoice2_1();
         };
@@ -421,7 +420,7 @@ function game() {
             const rect = canvas.getBoundingClientRect(),
                 x = event.clientX - rect.left,
                 y = event.clientY - rect.top;
-            let data = ctx.getImageData(x, y, 1, 1).data;
+            
             
             if (x<=400) {
                 dialogue2c();
@@ -457,7 +456,7 @@ function game() {
             const rect = canvas.getBoundingClientRect(),
                 x = event.clientX - rect.left,
                 y = event.clientY - rect.top;
-            let data = ctx.getImageData(x, y, 1, 1).data;
+            
             
             dialogueChoice2_2();
         };
@@ -486,7 +485,7 @@ function game() {
             const rect = canvas.getBoundingClientRect(),
                 x = event.clientX - rect.left,
                 y = event.clientY - rect.top;
-            let data = ctx.getImageData(x, y, 1, 1).data;
+            
             
             if (x<=400) {
                 dialogue2e();
@@ -521,7 +520,7 @@ function game() {
             const rect = canvas.getBoundingClientRect(),
                 x = event.clientX - rect.left,
                 y = event.clientY - rect.top;
-            let data = ctx.getImageData(x, y, 1, 1).data;
+            
             
             dialogue2g();
         };
@@ -554,7 +553,7 @@ function game() {
             const rect = canvas.getBoundingClientRect(),
                 x = event.clientX - rect.left,
                 y = event.clientY - rect.top;
-            let data = ctx.getImageData(x, y, 1, 1).data;
+            
             
             stageFourA();
         };
@@ -594,7 +593,7 @@ function game() {
             const rect = canvas.getBoundingClientRect(),
                 x = event.clientX - rect.left,
                 y = event.clientY - rect.top;
-            let data = ctx.getImageData(x, y, 1, 1).data;
+            
             
             if (x<=400) {
                 dialogue3a();
@@ -629,7 +628,7 @@ function game() {
             const rect = canvas.getBoundingClientRect(),
                 x = event.clientX - rect.left,
                 y = event.clientY - rect.top;
-            let data = ctx.getImageData(x, y, 1, 1).data;
+            
             
             dialogueChoice3_1();
         }
@@ -657,7 +656,7 @@ function game() {
             const rect = canvas.getBoundingClientRect(),
                 x = event.clientX - rect.left,
                 y = event.clientY - rect.top;
-            let data = ctx.getImageData(x, y, 1, 1).data;
+            
             
             if (x <=400) {
                 dialogue3c();
@@ -694,7 +693,7 @@ function game() {
             const rect = canvas.getBoundingClientRect(),
                 x = event.clientX - rect.left,
                 y = event.clientY - rect.top;
-            let data = ctx.getImageData(x, y, 1, 1).data;
+            
             
             dialogueChoice3_2();
         }
@@ -722,7 +721,7 @@ function game() {
             const rect = canvas.getBoundingClientRect(),
                 x = event.clientX - rect.left,
                 y = event.clientY - rect.top;
-            let data = ctx.getImageData(x, y, 1, 1).data;
+            
             
             if (x <=400) {
                 dialogue3e();
@@ -758,7 +757,7 @@ function game() {
             const rect = canvas.getBoundingClientRect(),
                 x = event.clientX - rect.left,
                 y = event.clientY - rect.top;
-            let data = ctx.getImageData(x, y, 1, 1).data;
+            
             
             stageFourA();
         };
@@ -793,7 +792,7 @@ function game() {
             const rect = canvas.getBoundingClientRect(),
                 x = event.clientX - rect.left,
                 y = event.clientY - rect.top;
-            let data = ctx.getImageData(x, y, 1, 1).data;
+            
 
             if (x <= 400) {
                 if (bridge == true) {
@@ -824,7 +823,7 @@ function game() {
             const rect = canvas.getBoundingClientRect(),
                 x = event.clientX - rect.left,
                 y = event.clientY - rect.top;
-            let data = ctx.getImageData(x, y, 1, 1).data;
+            
 
             if (y <= 400) {
                 stageEight1(); //ending #5
@@ -856,7 +855,7 @@ function game() {
             const rect = canvas.getBoundingClientRect(),
                 x = event.clientX - rect.left,
                 y = event.clientY - rect.top;
-            let data = ctx.getImageData(x, y, 1, 1).data;
+            
             
             stageEight2();
         }
@@ -892,7 +891,7 @@ function game() {
             const rect = canvas.getBoundingClientRect(),
                 x = event.clientX - rect.left,
                 y = event.clientY - rect.top;
-            let data = ctx.getImageData(x, y, 1, 1).data;
+            
 
             if (y <= 400) {
                 stageSix(); //ending #2
@@ -918,7 +917,7 @@ function game() {
             const rect = canvas.getBoundingClientRect(),
                 x = event.clientX - rect.left,
                 y = event.clientY - rect.top;
-            let data = ctx.getImageData(x, y, 1, 1).data;
+            
 
             if (x <= 400) {
                 stageSevenA(); //ending #3
@@ -978,7 +977,7 @@ function game() {
             const rect = canvas.getBoundingClientRect(),
                 x = event.clientX - rect.left,
                 y = event.clientY - rect.top;
-            let data = ctx.getImageData(x, y, 1, 1).data;
+            
         }
     }
 }
