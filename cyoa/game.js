@@ -102,9 +102,9 @@ function game() {
         ctx.font = "30px monospace";
         ctx.fillStyle = "white";
         ctx.textAlign = "center";
-        ctx.fillText("npc2", 175, 610);
-        ctx.fillText("npc1", 625, 610);
-        ctx.fillText("npc3", 400, 410);
+        ctx.fillText("Anabel", 175, 610);
+        ctx.fillText("Daniel", 625, 610);
+        ctx.fillText("Anthony", 400, 410);
         ctx.fillText("Go back", 400, 775);
 
         canvas.onmousedown = function stageFourA(event) {
@@ -144,6 +144,11 @@ function game() {
         ctx.fillText("Hello!", 205, 670);
         ctx.fillText("Goodbye.", 595, 670);
         
+        ctx.font = "30px monospace";
+        ctx.fillStyle = "white";
+        ctx.textAlign = "center";
+        ctx.fillText("Anabel", 137, 523);
+        
          canvas.onmousedown = function stageFourA1(event) {
             const rect = canvas.getBoundingClientRect(),
                 x = event.clientX - rect.left,
@@ -156,7 +161,7 @@ function game() {
             else {
                 dialogue1b();
             }
-        }
+        };
     } //LeftNPC
     
     function dialogue1a() {
@@ -173,6 +178,11 @@ function game() {
         ctx.fillStyle = "white";
         ctx.textAlign = "center";
         ctx.fillText("Click to continue", 625, 740);
+        
+        ctx.font = "30px monospace";
+        ctx.fillStyle = "white";
+        ctx.textAlign = "center";
+        ctx.fillText("Anabel", 137, 523);
         
          canvas.onmousedown = function dialogue1a(event) {
             const rect = canvas.getBoundingClientRect(),
@@ -196,6 +206,11 @@ function game() {
         ctx.textAlign = "center";
         ctx.fillText("Treasure?", 205, 670);
         ctx.fillText("Nevermind.", 595, 670);
+        
+        ctx.font = "30px monospace";
+        ctx.fillStyle = "white";
+        ctx.textAlign = "center";
+        ctx.fillText("Anabel", 137, 523);
         
          canvas.onmousedown = function dialogueChoice1_1(event) {
             const rect = canvas.getBoundingClientRect(),
@@ -229,6 +244,11 @@ function game() {
         ctx.textAlign = "center";
         ctx.fillText("Click to continue", 625, 740);
         
+        ctx.font = "30px monospace";
+        ctx.fillStyle = "white";
+        ctx.textAlign = "center";
+        ctx.fillText("Anabel", 137, 523);
+        
          canvas.onmousedown = function dialogue1c(event) {
             const rect = canvas.getBoundingClientRect(),
                 x = event.clientX - rect.left,
@@ -246,11 +266,16 @@ function game() {
         ctx.drawImage(document.getElementById("box"), 10, 460);
         ctx.drawImage(document.getElementById("box"), 390, 460);
         
-        ctx.font = "30px monopspace";
+        ctx.font = "30px monospace";
         ctx.fillStyle = "white";
         ctx.textAlign = "center";
         ctx.fillText("Where is it?", 205, 670);
         ctx.fillText("Nevermind.", 595, 670);
+        
+        ctx.font = "30px monospace";
+        ctx.fillStyle = "white";
+        ctx.textAlign = "center";
+        ctx.fillText("Anabel", 137, 523);
         
          canvas.onmousedown = function dialogueChoice1_2(event) {
             const rect = canvas.getBoundingClientRect(),
@@ -283,6 +308,11 @@ function game() {
         ctx.fillStyle = "white";
         ctx.textAlign = "center";
         ctx.fillText("Click to continue", 625, 740);
+        
+        ctx.font = "30px monospace";
+        ctx.fillStyle = "white";
+        ctx.textAlign = "center";
+        ctx.fillText("Anabel", 137, 523);
         
          canvas.onmousedown = function dialogue1e(event) {
             const rect = canvas.getBoundingClientRect(),
@@ -319,6 +349,11 @@ function game() {
         ctx.fillText("Uh... Hello?", 205, 670);
         ctx.fillText("Goodbye.", 595, 670);
         
+        ctx.font = "30px monospace";
+        ctx.fillStyle = "white";
+        ctx.textAlign = "center";
+        ctx.fillText("Anthony", 137, 520);
+        
         canvas.onmousedown = function stageFourA2(event) {
             const rect = canvas.getBoundingClientRect(),
                 x = event.clientX - rect.left,
@@ -349,6 +384,11 @@ function game() {
         ctx.textAlign = "center";
         ctx.fillText("Click to continue", 625, 740);
         
+        ctx.font = "30px monospace";
+        ctx.fillStyle = "white";
+        ctx.textAlign = "center";
+        ctx.fillText("Anthony", 137, 520);
+        
         canvas.onmousedown = function dialogue2a(event) {
             const rect = canvas.getBoundingClientRect(),
                 x = event.clientX - rect.left,
@@ -371,6 +411,11 @@ function game() {
         ctx.textAlign = "center";
         ctx.fillText("Treasure?", 205, 670);
         ctx.fillText("Nevermind.", 595, 670);
+        
+        ctx.font = "30px monospace";
+        ctx.fillStyle = "white";
+        ctx.textAlign = "center";
+        ctx.fillText("Anthony", 137, 520);
         
         canvas.onmousedown = function stageFourA2(event) {
             const rect = canvas.getBoundingClientRect(),
@@ -403,6 +448,11 @@ function game() {
         ctx.textAlign = "center";
         ctx.fillText("Click to continue", 625, 740);
         
+        ctx.font = "30px monospace";
+        ctx.fillStyle = "white";
+        ctx.textAlign = "center";
+        ctx.fillText("Anthony", 137, 520);
+        
         canvas.onmousedown = function dialogue2c(event) {
             const rect = canvas.getBoundingClientRect(),
                 x = event.clientX - rect.left,
@@ -426,6 +476,11 @@ function game() {
         ctx.fillText("Then... where", 205, 650);
         ctx.fillText("can I find one?", 205, 685);
         ctx.fillText("Nevermind.", 595, 670);
+        
+        ctx.font = "30px monospace";
+        ctx.fillStyle = "white";
+        ctx.textAlign = "center";
+        ctx.fillText("Anthony", 137, 520);
         
         canvas.onmousedown = function dialogueChoice2_2(event) {
             const rect = canvas.getBoundingClientRect(),
@@ -457,6 +512,11 @@ function game() {
         ctx.textAlign = "center";
         ctx.fillText("Click to continue", 625, 740);
         
+        ctx.font = "30px monospace";
+        ctx.fillStyle = "white";
+        ctx.textAlign = "center";
+        ctx.fillText("Anthony", 137, 520);
+        
         canvas.onmousedown = function dialogue2e(event) {
             const rect = canvas.getBoundingClientRect(),
                 x = event.clientX - rect.left,
@@ -484,6 +544,11 @@ function game() {
         ctx.fillStyle = "white";
         ctx.textAlign = "center";
         ctx.fillText("Click to continue", 625, 740);
+        
+        ctx.font = "30px monospace";
+        ctx.fillStyle = "white";
+        ctx.textAlign = "center";
+        ctx.fillText("Anthony", 137, 520);
         
         canvas.onmousedown = function dialogue2g(event) {
             const rect = canvas.getBoundingClientRect(),
@@ -520,6 +585,11 @@ function game() {
         ctx.fillText("Hello!", 205, 670);
         ctx.fillText("Goodbye.", 595, 670);
         
+        ctx.font = "30px monospace";
+        ctx.fillStyle = "white";
+        ctx.textAlign = "center";
+        ctx.fillText("Daniel", 137, 523);
+        
         canvas.onmousedown = function stageFourA2(event) {
             const rect = canvas.getBoundingClientRect(),
                 x = event.clientX - rect.left,
@@ -550,6 +620,11 @@ function game() {
         ctx.textAlign = "center";
         ctx.fillText("Click to continue", 625, 740);
         
+        ctx.font = "30px monospace";
+        ctx.fillStyle = "white";
+        ctx.textAlign = "center";
+        ctx.fillText("Daniel", 137, 523);
+        
         canvas.onmousedown = function dialogue3a(event) {
             const rect = canvas.getBoundingClientRect(),
                 x = event.clientX - rect.left,
@@ -572,6 +647,11 @@ function game() {
         ctx.textAlign = "center";
         ctx.fillText("Treasure?", 205, 670);
         ctx.fillText("Nevermind.", 595, 670);
+        
+        ctx.font = "30px monospace";
+        ctx.fillStyle = "white";
+        ctx.textAlign = "center";
+        ctx.fillText("Daniel", 137, 523);
         
         canvas.onmousedown = function dialogue3a(event) {
             const rect = canvas.getBoundingClientRect(),
@@ -605,6 +685,11 @@ function game() {
         ctx.textAlign = "center";
         ctx.fillText("Click to continue", 625, 740);
         
+        ctx.font = "30px monospace";
+        ctx.fillStyle = "white";
+        ctx.textAlign = "center";
+        ctx.fillText("Daniel", 137, 523);
+        
         canvas.onmousedown = function dialogue3a(event) {
             const rect = canvas.getBoundingClientRect(),
                 x = event.clientX - rect.left,
@@ -627,6 +712,11 @@ function game() {
         ctx.textAlign = "center";
         ctx.fillText("Where is it?", 205, 670);
         ctx.fillText("Nevermind.", 595, 670);
+        
+        ctx.font = "30px monospace";
+        ctx.fillStyle = "white";
+        ctx.textAlign = "center";
+        ctx.fillText("Daniel", 137, 523);
         
         canvas.onmousedown = function dialogueChoice3_2(event) {
             const rect = canvas.getBoundingClientRect(),
@@ -658,6 +748,11 @@ function game() {
         ctx.fillStyle = "white";
         ctx.textAlign = "center";
         ctx.fillText("Click to continue", 625, 740);
+        
+        ctx.font = "30px monospace";
+        ctx.fillStyle = "white";
+        ctx.textAlign = "center";
+        ctx.fillText("Daniel", 137, 523);
         
         canvas.onmousedown = function dialogue3a(event) {
             const rect = canvas.getBoundingClientRect(),
